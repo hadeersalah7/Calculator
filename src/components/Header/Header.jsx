@@ -3,8 +3,8 @@ const Header = () => {
     return (
         <>
             <header id="header">
-                <h1>React Investment Calculator</h1>
                 <img src={calculatorLogo} alt="investmentCalculatorLogo" />
+                <h1>React Investment Calculator</h1>
             </header>
         </>
     )

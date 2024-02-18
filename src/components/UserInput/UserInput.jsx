@@ -7,13 +7,13 @@ const UserInput = ({ onChangeInput, userInput }) => {
             <div className="input-group">
                 <p>
                     <label>Intial Investment</label>
-                    <input type='number' required value={userInput.intialInvestment} onChange={(event) => onChangeInput("intialInvestment", event.target.value)}/>
+                    <input type='number' required value={userInput.initialInvestment} onChange={(event) => onChangeInput("initialInvestment", event.target.value)}/>
                 </p>
             </div>
             <div className="input-group">
                 <p>
                     <label>Annual Investment</label>
-                    <input type='number' required value={userInput.annualInvenstment} onChange={(event) => onChangeInput("annualInvenstment", event.target.value)}/>
+                    <input type='number' required value={userInput.annualInvestment} onChange={(event) => onChangeInput("annualInvestment", event.target.value)}/>
                 </p>
             </div>
 

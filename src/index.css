@@ -88,3 +88,7 @@ body {
 .center {
   text-align: center;
 }
+
+.error {
+  color: rgb(240, 180, 53)
+}
